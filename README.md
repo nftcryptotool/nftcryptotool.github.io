@@ -1,3 +1,7 @@
+---
+permalink: /public/index.html
+---
+
 ## Instructions/Walkthrough:
 
 https://www.dappuniversity.com/articles/blockchain-app-tutorial <br>
@@ -7,6 +11,11 @@ use 'npm start' instead of 'npm run dev' <br>
 delete the contracts in build before running 'truffle migrate --reset' <br>
 afterwards, run 'truffle compile'
 replace the contract address values in config.js
+
+https://haarsh.hashnode.dev/how-to-deploy-your-react-websites-on-github-pages
+npm run build
+rm -rf node_modules/.cache/gh-pages
+yarn run deploy
 
 #### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
